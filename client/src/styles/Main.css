@@ -1,0 +1,61 @@
+body {
+    background-color: #61416d;
+    background-image: url(D:\rasi\gg\quizapp\client\src\anime-attack-on-titan-attack-on-titan-eren-yeager-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+}
+
+.container h1.title {
+    font-size: 2.5em;
+    color: #9e2745;
+    text-align: center;
+    margin-bottom: 1em;
+    border: none;
+}
+
+.container ol li {
+    font-size: 1.4em;
+    color: #f8f4f4;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn {
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #f2eaea;
+    text-decoration: none;
+    background-color: #7f1010;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid {
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    background-color: #d9e1db; /* Added background color */
+    box-shadow: 0 0 10px rgba(5, 225, 13, 0.1); /* Added box shadow */
+    outline: none; /* Remove default outline */
+    transition: box-shadow 0.3s ease; /* Added transition for better UX */
+}
+
+#form .userid:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Change box shadow on focus */
+}
