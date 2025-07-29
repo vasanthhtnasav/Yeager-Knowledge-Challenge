@@ -14,7 +14,9 @@ export function flagResult(totalPoints, earnPoints){
     return (totalPoints * 50 / 100) < earnPoints; /** earn 50% marks */
 }
 
-/** check user auth  */
+
+
+//we editing it
 export function CheckUserExist({ children }){
     const auth = useSelector(state => state.result.userId)
     return auth ? children : <Navigate to={'/'} replace={true}></Navigate>
